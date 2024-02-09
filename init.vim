@@ -172,7 +172,7 @@ endif
 " Scan files given by `dictionary` option
 set complete+=k,kspell complete-=w complete-=b complete-=u complete-=t
 
-set spelllang=en,cjk  " Spell languages
+set spelllang=en,ru  " Spell languages
 
 " Align indent to next multiple value of shiftwidth. For its meaning,
 " see http://vim.1045645.n5.nabble.com/shiftround-option-td5712100.html
@@ -489,10 +489,10 @@ if maparg('<C-L>', 'n') ==# ''
   nnoremap <silent> <C-L> :nohlsearch<C-R>=has('diff')?'<Bar>diffupdate':''<CR><CR><C-L>
 endif
 
-nnoremap <up> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
-nnoremap <down> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
-nnoremap <right> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
-nnoremap <left> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
+"nnoremap <up> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
+"nnoremap <down> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
+"nnoremap <right> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
+"nnoremap <left> :echoerr "Don't use arrow keys, use H, J, K, L instead!"<CR>
 "}
 
 "{ UI settings
